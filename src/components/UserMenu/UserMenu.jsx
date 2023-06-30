@@ -13,7 +13,7 @@ const InfoUser = () => {
     <div>
       {user && (
         <div className=" d-flex gap=10">
-          <h4 className="text-light"> Welcome, {user.name} 👾</h4>
+          <h4 className="text-light">  👾 Welcome, {user.name}</h4>
           <Button
             bg="black"
             variant="dark"

@@ -29,7 +29,7 @@ const ContactList = function () {
               onClick={() => dispatch(delContactsThunk(id))}
               type="button"
             >
-              Delete
+              Delete 🗑
             </button>
           </p>
         </li>

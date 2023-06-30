@@ -36,7 +36,7 @@ const Navigation = () => {
       </Navbar>
       <Container className="align-items-center d-flex flex-column justify-content-center">
         {user ? (
-          <h1> Phone book</h1>
+          <h1>  </h1>
         ) : (
           <h1 className='text-login'> 👀 Welcome guest please login </h1>
         )}
