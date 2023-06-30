@@ -38,7 +38,7 @@ const Navigation = () => {
         {user ? (
           <h1>  </h1>
         ) : (
-          <h1 className='text-login'> 👀 Welcome guest please login </h1>
+          <h1 className='text-login'> 👀 Welcome guest please login or sign up </h1>
         )}
       </Container>
     </>
