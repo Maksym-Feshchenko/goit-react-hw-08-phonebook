@@ -1,0 +1,47 @@
+/* ContactList.module.css */
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+  }
+  
+  .listItem {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    min-width: 300px;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .contactName {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .contactNumber {
+    color: #666;
+    margin-right: 0.5rem;
+  }
+  
+  .deleteButton {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #f6011a;
+  }
+  
